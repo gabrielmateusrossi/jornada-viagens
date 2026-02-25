@@ -13,6 +13,8 @@
     display: block;
     background-color: transparent;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p {
@@ -24,6 +26,7 @@
     font-size: 40px;
     font-weight: var(--title-weight);
     margin: 8px 0 0;
+    
 }
 
 .card header span {
@@ -31,3 +34,17 @@
     margin-top: 24px;
     display: inline-block;
 }
+
+.button {
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
+}
+
