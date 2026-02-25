@@ -7,17 +7,17 @@
 
 :root {
   --primary-color: #8f0101;
-  --secundary-color: #b81515;
+  --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
-  --background-secundary-color: #f5f5f5;
+  --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
-  --text-secundary-color: #ffffff;
+  --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --text-wight: 400;
+  --text-weight: 400;
   --menu-text-weight: 500;
 }
 
@@ -60,7 +60,7 @@ body {
 .section-title hr {
   width: 180px;
   height: 4px;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
