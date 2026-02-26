@@ -1,8 +1,30 @@
+.offers {
+    margin-bottom: 104px;
+}
+
 .offers-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+}
+
+.offers-cards .card {
+    color: var(--text-secondary-color);
+    width: 312px;
+    height: 288px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.offers-cards .card header {
+    display: block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card {
