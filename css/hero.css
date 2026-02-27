@@ -1,10 +1,19 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
     height: 400px;
     width: 100%;
-    background-image: url(../img/hero-mobile.png);
-    background-repeat: no-repeat;
+}
+
+.hero .hero-img {
+    background: url(../img/hero-mobile.png) no-repeat;
     background-size: cover;
 }
+
+.bottom-hero .hero-img {
+    background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
+    background-size: cover;
+}
+
 .hero h2 {
     padding: 88px 24px;
     margin: 0px;
@@ -16,9 +25,15 @@
 
 
 @media (min-width: 768px) {
-    .hero-img {
+    .hero .hero-img {
         height: 620px;
-        background-image: url(../img/hero-tablet.png);
+        background: url(../img/hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .bottom-hero .hero-img {
+        height: 400px;
+        background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
         background-size: cover;
     }
 
@@ -29,8 +44,14 @@
 }
 
 @media (min-width: 1024px) {
-    .hero-img {
+    .hero .hero-img {
         background-image: url(../img/hero-desktop.png);
+        background-size: cover;
+    }
+
+    .bottom-hero .hero-img {
+        height: 600px;
+        background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
         background-size: cover;
     }
 
